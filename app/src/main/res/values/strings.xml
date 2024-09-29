@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guias</string>
+    <string name="title_activity_bussines">BussinesActivity</string>
+    <string name="business_titile">BussinesActivity</string>
+    <string name="title_activity_par_impar">ParImpar</string>
+    <string name="title_activity_scafold_test">ScafoldTest</string>
+    <string name="title_activity_app_bars">AppBars</string>
+    <string name="title_activity_snackbar_test">SnackbarTest</string>
+    <string name="title_activity_guia9">guia9</string>
+</resources>

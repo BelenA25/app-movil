@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Guias"
+        tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".Guia9"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_guia9"-->
+<!--            android:theme="@style/Theme.Guias" />-->
+        <!-- android:name=".ScafoldTest" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_scafold_test" -->
+        <!-- android:theme="@style/Theme.Guias" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ParImpar" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_par_impar" -->
+        <!-- android:theme="@style/Theme.Guias" /> -->
+        <!-- <activity -->
+        <!-- android:name=".BussinesActivity" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_bussines" -->
+        <!-- android:theme="@style/Theme.Guias" /> -->
+        <activity
+            android:name=".Guia9"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Guias">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
